@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-// import { ExpandMore } from '';
+import styled from "styled-components";
+import { RiArrowDropDownLine } from "../../styles/Icons";
 
 export const Container = styled.div`
   display: flex;
@@ -17,7 +17,7 @@ export const Title = styled.h1`
   color: var(--white);
 `;
 
-export const ExpandIcon = styled.div`
+export const ExpandIcon = styled(RiArrowDropDownLine)`
   width: 28px;
   height: 28px;
   color: var(--white);

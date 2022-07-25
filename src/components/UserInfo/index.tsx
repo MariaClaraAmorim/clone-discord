@@ -6,14 +6,14 @@ import {
   Icons,
   MicIcon,
   HeadphoneIcon,
-  SettingsIcon
+  SettingsIcon,
 } from "./style";
 
 const UserInfo: React.FC = () => {
   return (
     <Container>
       <Profile>
-        <Avatar/> 
+        <Avatar />
         <UserData>
           <strong>Maria Clara Amorim</strong>
           <span>#2689</span>
@@ -21,21 +21,14 @@ const UserInfo: React.FC = () => {
       </Profile>
 
       <Icons>
-        <MicIcon>
-          <img src="Public/Images/microfone.png" alt="" />
-        </MicIcon>
+        <MicIcon />
 
-        <HeadphoneIcon>
-          <img src="Public/Images/fone.png" alt="" />
-        </HeadphoneIcon>
+        <HeadphoneIcon />
 
-        <SettingsIcon>
-          <img src="Public/Images/settings.png" alt="" />
-        </SettingsIcon>
+        <SettingsIcon />
       </Icons>
     </Container>
   );
 };
 
 export default UserInfo;
-

@@ -1,31 +1,31 @@
-import styled from 'styled-components';
-// import { ExpandMore } from '';
+import styled from "styled-components";
+import {
+  MdHeadphones,
+  BsFillMicFill,
+  AiOutlineSetting,
+} from "../../styles/Icons";
 
-
-export const Container= styled.div`
-grid-area: UI;
-display: flex;
-align-items: center;
-justify-content: center;
-padding: 10px;
-background-color: var(--quaternary);
-box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 0px 0px;
-
+export const Container = styled.div`
+  grid-area: UI;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: var(--quaternary);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 0px 0px;
 `;
 
-export const Profile= styled.div`
-display: flex;
-align-items: center;
+export const Profile = styled.div`
+  display: flex;
+  align-items: center;
 `;
 
-export const Avatar= styled.div`
-width: 32px;
-height: 32px;
-border-radius: 50%;
-background-color: var(--gray); 
-
+export const Avatar = styled.div`
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: var(--gray);
 `;
-
 
 export const UserData = styled.div`
   margin-left: 8px;
@@ -50,7 +50,7 @@ export const Icons = styled.div`
   }
 `;
 
-export const MicIcon = styled.div`
+export const MicIcon = styled(BsFillMicFill)`
   width: 20px;
   height: 20px;
   color: var(--white);
@@ -62,7 +62,7 @@ export const MicIcon = styled.div`
   }
 `;
 
-export const HeadphoneIcon = styled.div`
+export const HeadphoneIcon = styled(MdHeadphones)`
   width: 20px;
   height: 20px;
   color: var(--white);
@@ -74,7 +74,7 @@ export const HeadphoneIcon = styled.div`
   }
 `;
 
-export const SettingsIcon = styled.div`
+export const SettingsIcon = styled(AiOutlineSetting)`
   width: 20px;
   height: 20px;
   color: var(--white);
@@ -87,11 +87,9 @@ export const SettingsIcon = styled.div`
 `;
 
 export const Imagem = styled.div`
-width: 32px;
-height: 32px;
-border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
 `;
 
-
 // style=" width: 32px;height: 32px;border-radius: 50%;"
-

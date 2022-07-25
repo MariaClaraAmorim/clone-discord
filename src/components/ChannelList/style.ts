@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-// import { Add } from 'styled-icons/material';
+import styled from "styled-components";
+import { AiOutlinePlus } from "../../styles/Icons";
 
 export const Container = styled.div`
   grid-area: CL;
@@ -22,10 +22,9 @@ export const Category = styled.div`
   }
 `;
 
-export const AddCategoryIcon = styled.div`
+export const AddCategoryIcon = styled(AiOutlinePlus)`
   width: 21px;
   height: 21px;
   color: var(--symbol);
   cursor: pointer;
 `;
-

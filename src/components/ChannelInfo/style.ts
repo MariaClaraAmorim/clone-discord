@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { BsHash } from "../../styles/Icons";
 
 export const Container = styled.div`
   display: flex;
@@ -9,7 +10,7 @@ export const Container = styled.div`
   box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 0px 0px;
   z-index: 2;
 `;
-export const HashtagIcon = styled.div`
+export const HashtagIcon = styled(BsHash)`
   width: 24px;
   height: 24px;
   color: var(--symbol);

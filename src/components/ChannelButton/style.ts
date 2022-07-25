@@ -1,4 +1,5 @@
-import styled from 'styled-components';
+import styled, { css } from "styled-components";
+import { BsHash, AiOutlineUserAdd, AiOutlineSetting } from "../../styles/Icons";
 
 export const Container = styled.div`
   display: flex;
@@ -26,13 +27,13 @@ export const Container = styled.div`
   }
 `;
 
-export const HashtagIcon = styled.div`
+export const HashtagIcon = styled(BsHash)`
   width: 20px;
   height: 20px;
   color: var(--symbol);
 `;
 
-export const InviteIcon = styled.div`
+export const InviteIcon = styled(AiOutlineUserAdd)`
   width: 16px;
   height: 16px;
   color: var(--symbol);
@@ -43,7 +44,7 @@ export const InviteIcon = styled.div`
   }
 `;
 
-export const SettingsIcon = styled.div`
+export const SettingsIcon = styled(AiOutlineSetting)`
   width: 16px;
   height: 16px;
   margin-left: 4px;
