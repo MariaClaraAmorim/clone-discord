@@ -11,7 +11,7 @@ const ChannelList: React.FC = () => {
         <span>Canais de texto</span>
 
         <AddCategoryIcon>
-          <img src="../src/assets/+canais.png" alt="icon +" />
+          <img src="Public/Images/+canais.png" alt="icon +" />
         </AddCategoryIcon>
       </Category>
 

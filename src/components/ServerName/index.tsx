@@ -9,7 +9,7 @@ const ServerName: React.FC = () => {
       <Title>Servidor da Maria</Title>
       
       <ExpandIcon>
-        <img src="../src/assets/Vector.png" alt="" />
+        <img src="Public/Images/Vector.png" alt="" />
       </ExpandIcon>
     </Container>
   );

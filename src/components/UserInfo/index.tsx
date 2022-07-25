@@ -22,15 +22,15 @@ const UserInfo: React.FC = () => {
 
       <Icons>
         <MicIcon>
-          <img src="../src/assets/microfone.png" alt="" />
+          <img src="Public/Images/microfone.png" alt="" />
         </MicIcon>
 
         <HeadphoneIcon>
-          <img src="../src/assets/fone.png" alt="" />
+          <img src="Public/Images/fone.png" alt="" />
         </HeadphoneIcon>
 
         <SettingsIcon>
-          <img src="../src/assets/settings.png" alt="" />
+          <img src="Public/Images/settings.png" alt="" />
         </SettingsIcon>
       </Icons>
     </Container>

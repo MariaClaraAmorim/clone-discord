@@ -12,7 +12,7 @@ const ChannelButton: React.FC<Props> = ({ channelName, selected }) => {
     <Container className={selected ? "active" : ""}>
       <div>
         <HashtagIcon>
-          <img src="../src/assets/iconHashtag.png" alt="icon hasthtag" />
+          <img src="Public/Images/iconHashtag.png" alt="icon hasthtag" />
         </HashtagIcon>
 
         <span>{channelName}</span>
@@ -20,11 +20,11 @@ const ChannelButton: React.FC<Props> = ({ channelName, selected }) => {
 
       <div>
         <InviteIcon>
-          <img src="../src/assets/add.png" alt="" />
+          <img src="Public/Images/add.png" alt="" />
         </InviteIcon>
 
         <SettingsIcon>
-          <img src="../src/assets/settingWhite.png" alt="" />
+          <img src="Public/Images/settingWhite.png" alt="" />
         </SettingsIcon>
       </div>
     </Container>

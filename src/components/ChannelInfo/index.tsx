@@ -7,7 +7,7 @@ const ChannelInfo: React.FC = () => {
     <Container>
 
       <HashtagIcon>
-      <img src="../src/assets/#.png" alt="" />
+      <img src="Public/Images/#.png" alt="" />
       </HashtagIcon>
 
       <Title>Chat-livre</Title>
